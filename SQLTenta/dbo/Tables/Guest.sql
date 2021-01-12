@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [Guest] (
   [Guest_ID] int IDENTITY,
-  [First_name] nvarchar(50),
-  [Last_name] nvarchar(50),
+  [First_Name] nvarchar(50),
+  [Last_Name] nvarchar(50),
   [Phone] nvarchar(15),
   [Mail] nvarchar(50),
   [Adress] nvarchar(50),

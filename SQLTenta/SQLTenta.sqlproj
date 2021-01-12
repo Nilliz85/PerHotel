@@ -64,6 +64,7 @@
     <Build Include="dbo\Tables\Bill.sql" />
     <Build Include="dbo\Tables\BillRow.sql" />
     <Build Include="dbo\Tables\Bookings.sql" />
+    <Build Include="CostumerInsert.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\EmergencyContact.sql" />
