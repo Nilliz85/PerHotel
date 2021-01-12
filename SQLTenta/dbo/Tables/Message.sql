@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [Message] (
   [Message_ID] int IDENTITY,
-  [Message] nvarchar,
+  [Message] nvarchar(50),
   [Date] datetime2,
   [Guest_ID] int,
   [Manager_ID] int,
