@@ -81,4 +81,7 @@
   <ItemGroup>
     <None Include="dbo\PublishLocations\SQLTenta.publish.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="SQLTenta.refactorlog" />
+  </ItemGroup>
 </Project>

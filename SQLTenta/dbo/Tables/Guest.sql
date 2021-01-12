@@ -8,6 +8,7 @@
   [City] nvarchar(50),
   [Zip] int,
   [Country_code] nvarchar(2),
-  [EmergencyContact] int,
-  PRIMARY KEY ([Guest_ID])
+  [EmergencyContact_ID] int,
+  PRIMARY KEY ([Guest_ID]), 
+    CONSTRAINT [FK_Guest_Emergency] FOREIGN KEY ([EmergencyContact_ID]) REFERENCES [EmergencyContact]([EmergencyContact_ID]) 
 );

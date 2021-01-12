@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="9db23e90-0feb-491f-9c0f-0b8ee6b404d4" ChangeDateTime="01/12/2021 16:30:20">
+    <Property Name="ElementName" Value="[dbo].[Payment].[PaymentMethod]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Payment]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PaymentMethod_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="da2ba172-326e-4413-b63a-f88c519943c5" ChangeDateTime="01/12/2021 16:30:56">
+    <Property Name="ElementName" Value="[dbo].[PaymentMethod].[Method_ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PaymentMethod]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PaymentMethod_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6bf5ab38-eb5d-44bc-9905-69dad8bc5c12" ChangeDateTime="01/12/2021 16:43:45">
+    <Property Name="ElementName" Value="[dbo].[Guest].[EmergencyContact]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Guest]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EmergencyContact_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5d98317f-f030-49b6-9f91-8109eb0ee500" ChangeDateTime="01/12/2021 16:44:32">
+    <Property Name="ElementName" Value="[dbo].[EmergencyContact].[Contact_ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[EmergencyContact]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EmergencyContact_ID" />
+  </Operation>
+</Operations>
